@@ -1,0 +1,40 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+  
+  .alert {
+    margin-top: 20px;
+    padding: 10px;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .ml-2 {
+    margin-left: 10px;
+  }

@@ -1,0 +1,104 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-section,
+.voting-section,
+.results-section {
+  margin-bottom: 30px;
+}
+
+.admin-section h2,
+.voting-section h2,
+.results-section h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.admin-section input,
+.voting-section input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.admin-section button,
+.voting-section button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-section button:disabled,
+.voting-section button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.voting-subsection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.candidate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.candidate label {
+  display: flex;
+  align-items: center;
+}
+
+.candidate input[type="radio"] {
+  margin-left: 10px;
+  width: 20px; /* Increase the width */
+  height: 20px; /* Increase the height */
+}
+
+.voted-message {
+  color: green;
+  text-align: center;
+}
+
+.results-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results-section li {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}

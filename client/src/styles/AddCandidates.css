@@ -1,0 +1,29 @@
+.candidate-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 100%; /* Ensure the card does not overflow */
+}
+
+.candidate-image {
+  width: 100px; /* Fixed width */
+  height: 100px; /* Fixed height */
+  border-radius: 50%;
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+  margin-bottom: 16px;
+}
+
+.candidate-info {
+  text-align: left;
+}
+
+.candidate-info h3 {
+  margin-top: 0;
+}
+
+.candidate-info p {
+  margin: 4px 0;
+}

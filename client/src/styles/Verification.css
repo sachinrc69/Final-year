@@ -1,0 +1,31 @@
+/* Verification.css */
+
+.container {
+  color: #000; /* Ensure text color is black */
+}
+
+.alert {
+  margin-bottom: 20px;
+  color: #000; /* Ensure alert text color is black */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.list-group-item {
+  background-color: #fff; /* Ensure background color is white */
+  color: #000; /* Ensure text color is black */
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.badge.bg-success {
+  background-color: #28a745;
+}
